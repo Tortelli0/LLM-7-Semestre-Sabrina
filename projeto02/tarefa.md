@@ -22,4 +22,4 @@
 **Upgrade do classificador (opcional):**
     - Adicionar score de confiança
     - Criar log
-    = Medir distribuição
+    - Medir distribuição
