@@ -1,0 +1,46 @@
+[
+  {
+    "role": "system",
+    "content": "Você é um assistente em português, educado, objetivo e levemente bem-humorado. Responda em frases curtas e claras, peça esclarecimentos se necessário."
+  },
+  {
+    "role": "user",
+    "content": "& C:/Users/eduar/Downloads/Projects/LLM-7-Semestre-Sabrina/.venv/Scripts/python.exe c:/Users/eduar/Downloads/Projects/LLM-7-Semestre-Sabrina/projeto04/main.py"
+  },
+  {
+    "role": "assistant",
+    "content": "Não detectei temperatura com unidade (ex: 37C ou 98F)."
+  },
+  {
+    "role": "user",
+    "content": "cls"
+  },
+  {
+    "role": "assistant",
+    "content": "Erro ao consultar a API: Error code: 404 - {'error': {'message': 'The model `gpt-4o-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+  },
+  {
+    "role": "user",
+    "content": "/sair"
+  },
+  {
+    "role": "assistant",
+    "content": "Erro ao consultar a API: Error code: 404 - {'error': {'message': 'The model `gpt-4o-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+  },
+  {
+    "role": "user",
+    "content": "ola, meu nome é eduardo, tudo bem?"
+  },
+  {
+    "role": "assistant",
+    "content": "Olá Eduardo! Estou aqui para ajudar. Sinto não ter respondido direito há pouco. Obrigado por perguntar. Como posso ajudar agora?"
+  },
+  {
+    "role": "user",
+    "content": "qual meu nome?"
+  },
+  {
+    "role": "assistant",
+    "content": "Seu nome é Eduardo!"
+  }
+]
