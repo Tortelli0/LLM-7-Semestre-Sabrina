@@ -129,19 +129,11 @@ def chat(pergunta):
     salvar_historico({"role": "user", "content": pergunta})
 
     try:
-        # Usar endpoint compatível com Groq: responses.create
-        resp = client.responses.create(
+        resp = client.chat.completions.create(
             model=MODEL,
-            input=historico_mensagens
+            messages=historico_mensagens
         )
-        # Extrair texto de forma robusta
-        if hasattr(resp, "output_text") and resp.output_text:
-            resposta_conteudo = resp.output_text
-        else:
-            try:
-                resposta_conteudo = resp.output[0].content[0].text
-            except Exception:
-                resposta_conteudo = str(resp)
+        resposta_conteudo = resp.choices[0].message.content
     except Exception as e:
         resposta_conteudo = f"Erro ao consultar a API: {e}"
 
